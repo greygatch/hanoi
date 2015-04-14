@@ -22,7 +22,7 @@ function init(){
 function initBoard(){
 
   // assign data values and change display
-  for (var i = 1; i < 4; i++){
+  for (var i = 1; i < 6; i++){
     var col = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
     var $block = $('<div>');
     var width = (i * 60);
